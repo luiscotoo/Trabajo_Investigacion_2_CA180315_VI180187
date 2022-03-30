@@ -5,19 +5,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#168BC34A"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <!-- TextView to display heading of the activity -->
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="313dp"
+        android:layout_height="92dp"
+        android:fontFamily="casual"
+        android:shadowColor="#02e6f2"
+        android:shadowDx="4"
+        android:shadowDy="10"
+        android:shadowRadius="8"
         android:text="@string/heading"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
+        android:typeface="serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -26,32 +32,41 @@
         app:layout_constraintVertical_bias="0.060000002" />
 
     <!-- TextView to display sub heading of the activity -->
+
+    <!-- TextView to display the random string -->
+
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="casual"
         android:text="@string/subHeading"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:typeface="serif"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.356" />
+        app:layout_constraintVertical_bias="0.291" />
 
-    <!-- TextView to display the random string -->
     <TextView
         android:id="@+id/textView"
-        android:layout_width="411dp"
-        android:layout_height="wrap_content"
+        android:layout_width="334dp"
+        android:layout_height="271dp"
+        android:background="@drawable/rounded_rectangle"
+        android:fontFamily="casual"
         android:gravity="center"
         android:padding="8dp"
         android:text="@string/description"
         android:textAlignment="center"
         android:textAppearance="?android:attr/textAppearanceSearchResultTitle"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:typeface="serif"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -59,25 +74,34 @@
         app:layout_constraintVertical_bias="0.508" />
 
     <!-- Button to display next random string -->
-    <Button
+
+    <!-- Progress Bar to be displayed before displaying next string -->
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_margin="@android:dimen/notification_large_icon_height"
-        android:background="#4CAF50"
+        android:background="@drawable/rounded_rectangle"
+        android:backgroundTint="#02e6f2"
+        android:fontFamily="casual"
+        android:shadowColor="@color/black"
+        android:shadowDx="6"
+        android:shadowDy="4"
+        android:shadowRadius="8"
         android:text="@string/buttonText"
         android:textAllCaps="true"
-        android:textColor="@android:color/background_light"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:typeface="serif"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.382"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.79"
+        app:layout_constraintVertical_bias="0.976"
         tools:ignore="TextContrastCheck" />
 
-    <!-- Progress Bar to be displayed before displaying next string -->
     <ProgressBar
         android:id="@+id/progressBar"
         style="?android:attr/progressBarStyleLarge"
@@ -88,16 +112,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button"
-        app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/ic_launcher_background" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

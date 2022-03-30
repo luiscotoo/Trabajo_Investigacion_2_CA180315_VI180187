@@ -12,16 +12,14 @@ public class Model implements Contract.Model {
     // random strings will be selected
     // to display in the activity
     private List<String> arrayList = Arrays.asList(
-            "DSA Self Paced: Master the basics of Data Structures and Algorithms to solve complex problems efficiently. ",
-            "Placement 100: This course will guide you for placement with theory,lecture videos, weekly assignments " +
-                    "contests and doubt assistance.",
-            "Amazon SDE Test Series: Test your skill & give the final touch to your preparation before applying for " +
-                    "product based against like Amazon, Microsoft, etc.",
-            "Complete Interview Preparation: Cover all the important concepts and topics required for the interviews. " +
-                    "Get placement ready before the interviews begin",
-            "Low Level Design for SDE 1 Interview: Learn Object-oriented Analysis and Design to prepare for " +
-                    "SDE 1 Interviews in top companies"
+            "El primer virus informático se desarrolló en 1971",
+            "El primer ratón se construyó en 1964 y estaba hecho de madera. ",
+            "Cada mes se crean más de 6.000 nuevos virus informáticos.",
+            "El primer ordenador mecánico se llamaba ENIAC.",
+            "El término “bug” se originó por una polilla."
     );
+
+
 
     @Override
     // this method will invoke when
