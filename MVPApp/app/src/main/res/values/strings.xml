@@ -3,5 +3,5 @@
     <string name="buttonText">Siguiente Dato</string>
     <string name="heading">Patrón de Arquitectura MVP</string>
     <string name="subHeading">Datos curiosos sobre informática</string>
-    <string name="description">Aquí aparecerán los datos curiosos</string>
+    <string name="description">Presiona en siguiente dato para comenzar</string>
 </resources>

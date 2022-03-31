@@ -11,9 +11,10 @@ public class Model implements Contract.Model {
     // array list of strings from which
     // random strings will be selected
     // to display in the activity
+    int index = 0;
     private List<String> arrayList = Arrays.asList(
-            "El primer virus informático se desarrolló en 1971",
-            "El primer ratón se construyó en 1964 y estaba hecho de madera. ",
+            "El primer virus informático se desarrolló en 1971.",
+            "El primer ratón se construyó en 1964 y estaba hecho de madera.",
             "Cada mes se crean más de 6.000 nuevos virus informáticos.",
             "El primer ordenador mecánico se llamaba ENIAC.",
             "El término “bug” se originó por una polilla."
@@ -38,8 +39,10 @@ public class Model implements Contract.Model {
     // method to select random
     // string from the list of strings
     private String getRandomString() {
-        Random random = new Random();
-        int index = random.nextInt(arrayList.size());
+        index++;
+        if (index>4){
+            index =0;
+        }
         return arrayList.get(index);
     }
 }

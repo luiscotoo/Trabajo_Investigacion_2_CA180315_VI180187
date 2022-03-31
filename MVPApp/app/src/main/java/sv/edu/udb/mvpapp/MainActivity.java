@@ -1,6 +1,8 @@
 package sv.edu.udb.mvpapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -80,5 +82,13 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
     // in the Course Detail TextView
     public void setString(String string) {
         textView.setText(string);
+    }
+
+    public void IrInformacion(View v){
+        Bundle extras = new Bundle();
+        extras.putString("TituloDato",textView.getText().toString());
+        Intent intent = new Intent(this, InformacionDatos.class);
+        intent.putExtras(extras);
+        startActivity(intent);
     }
 }
