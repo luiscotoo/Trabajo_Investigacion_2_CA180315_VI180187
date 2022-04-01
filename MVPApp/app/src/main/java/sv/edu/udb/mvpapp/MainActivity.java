@@ -13,16 +13,12 @@ import static android.view.View.GONE;
 
 public class MainActivity extends AppCompatActivity implements Contract.View {
 
-    // creating object of TextView class
     private TextView textView;
 
-    // creating object of Button class
     private Button button;
 
-    // creating object of ProgressBar class
     private ProgressBar progressBar;
 
-    // creating object of Presenter interface in Contract
     Contract.Presenter presenter;
 
     @Override
