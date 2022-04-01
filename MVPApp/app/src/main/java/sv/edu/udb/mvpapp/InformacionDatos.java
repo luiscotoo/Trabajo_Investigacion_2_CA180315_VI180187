@@ -19,10 +19,10 @@ public class InformacionDatos extends AppCompatActivity {
         setContentView(R.layout.activity_informacion_datos);
 
         tvInfo = (TextView) findViewById(R.id.tvInfo);
-        tvDescripcion = (TextView) findViewById(R.id.tvDescripcion);
+
         String TituloDato = getIntent().getExtras().getString("TituloDato");
         tvInfo.setText(TituloDato);
-
+        tvDescripcion = (TextView) findViewById(R.id.tvDescripcion);
 
         String Dato0,Dato1,Dato2,Dato3,Dato4,Dato5;
         Dato0 = "Presiona en siguiente dato para comenzar";
