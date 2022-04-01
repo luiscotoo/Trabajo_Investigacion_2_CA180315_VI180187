@@ -3,7 +3,7 @@ Trabajo de investigación sobre patrones de diseño para aplicaciones móviles c
 
 ### Aplicación realizada en Android Studio :robot:
 
-:bulb: Clonar el repositorio para poder visualizar la aplicación realizada. 
+:bulb: Clonar el repositorio para poder visualizar la aplicación. 
 
 :clipboard: Se utilizó el patrón de diseño MVP para el desarrollo de la aplicación. La información del contenido de la misma fue obtenida de sitios de internet.
 
