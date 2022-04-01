@@ -30,20 +30,14 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // assigning ID of the TextView
-        textView = findViewById(R.id.textView);
+        textView = findViewById(R.id.txtView);
 
-        // assigning ID of the Button
-        button = findViewById(R.id.button);
-
-        // assigning ID of the ProgressBar
-        progressBar = findViewById(R.id.progressBar);
-
-        // instantiating object of Presenter Interface
+        button = findViewById(R.id.btnNext);
         presenter = new Presenter(this, new Model());
 
-        // operations to be performed when
-        // user clicks the button
+        progressBar = findViewById(R.id.progressBar);
+
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -64,26 +58,16 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
     }
 
     @Override
-    // method to display the Course Detail TextView
     public void showProgress() {
         progressBar.setVisibility(View.VISIBLE);
         textView.setVisibility(View.INVISIBLE);
     }
 
     @Override
-    // method to hide the Course Detail TextView
     public void hideProgress() {
         progressBar.setVisibility(GONE);
         textView.setVisibility(View.VISIBLE);
     }
-
-    @Override
-    // method to set random string
-    // in the Course Detail TextView
-    public void setString(String string) {
-        textView.setText(string);
-    }
-
     public void IrInformacion(View v){
         Bundle extras = new Bundle();
         extras.putString("TituloDato",textView.getText().toString());
@@ -91,4 +75,11 @@ public class MainActivity extends AppCompatActivity implements Contract.View {
         intent.putExtras(extras);
         startActivity(intent);
     }
+    @Override
+
+    public void setString(String string) {
+        textView.setText(string);
+    }
+
+
 }
