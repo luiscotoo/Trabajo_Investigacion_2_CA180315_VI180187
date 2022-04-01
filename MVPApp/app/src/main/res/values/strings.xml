@@ -2,6 +2,6 @@
     <string name="app_name">Datos Curiosos MVP</string>
     <string name="buttonText">Siguiente Dato</string>
     <string name="heading">Patrón de Arquitectura MVP</string>
-    <string name="subHeading">Datos curiosos sobre informática</string>
+    <string name="subHeading">Datos curiosos sobre tecnologia</string>
     <string name="description">Presiona en siguiente dato para comenzar</string>
 </resources>

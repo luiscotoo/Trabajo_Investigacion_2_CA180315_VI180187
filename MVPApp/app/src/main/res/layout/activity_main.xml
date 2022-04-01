@@ -14,7 +14,6 @@
         android:layout_width="313dp"
         android:layout_height="92dp"
         android:fontFamily="casual"
-        android:shadowColor="#02e6f2"
         android:shadowDx="4"
         android:shadowDy="10"
         android:shadowRadius="8"
