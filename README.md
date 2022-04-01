@@ -1,9 +1,9 @@
 # Trabajo_Investigacion_2_CA180315_VI180187
 Trabajo de investigación sobre patrones de diseño para aplicaciones móviles con android.
 
-### Ejercicios Android Studio :robot:
+### Aplicación realizada en Android Studio :robot:
 
-:bulb:Clonar el repositorio para poder visualizar la aplicación realizada. 
+:bulb: Clonar el repositorio para poder visualizar la aplicación realizada. 
 
 :clipboard: Se utilizó el patrón de diseño MVP para el desarrollo de la aplicación. La información del contenido de la misma fue obtenida de sitios de internet.
 
