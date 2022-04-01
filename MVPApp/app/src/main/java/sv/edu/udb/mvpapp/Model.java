@@ -19,8 +19,24 @@ public class Model implements Contract.Model {
             "El primer ordenador mecánico se llamaba ENIAC.",
             "El término “bug” se originó por una polilla."
     );
+    String Dato0 = "Presiona en siguiente dato para comenzar",
+            Dato1 = "El primer virus informático se desarrolló en 1971.",
+            Dato2 = "El primer ratón se construyó en 1964 y estaba hecho de madera.",
+            Dato3 = "Cada mes se crean más de 6.000 nuevos virus informáticos.",
+            Dato4 = "El primer ordenador mecánico se llamaba ENIAC.",
+            Dato5 = "El término “bug” se originó por una polilla.";
 
-
+    String Info1 = "Su nombre era Creeper y circulaba en ARPANET. Era totalmente inofensivo:" +
+            " se creó sólo como un experimento, para ver cómo se extendía de un ordenador" +
+            " a otro.",
+            Info2 = "Lo diseño el ingeniero Douglas Engelbart y tenía la forma de una caja un tanto " +
+                    "aparatosa. ¿Tendría la famosa “bola” que portaban los antiguos ratones?",
+            Info3 = "En lo que parece una voraz carrera por superar al número de virus biológicos. " +
+                    "Una carrera un tanto chunga, por cierto.",
+            Info4 = "Ocupaba 167 metros cuadrados y pesaba 27 toneladas. Nada que no pueda meter " +
+                    "cualquiera en su sala de estar.",
+            Info5 = "En concreto, la que causó el mal funcionamiento del ordenador Mark III en 1947." +
+                    " Un momento para la historia de la informática…";
 
     @Override
     // this method will invoke when
