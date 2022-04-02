@@ -5,7 +5,7 @@ Trabajo de investigación sobre patrones de diseño para aplicaciones móviles c
 
 :bulb: Clonar el repositorio para poder visualizar la aplicación. 
 
-:clipboard: Se utilizó el patrón de diseño MVP para el desarrollo de la aplicación. La información del contenido de la misma fue obtenida de sitios de internet.
+:clipboard: Se utilizó el patrón de diseño MVP para el desarrollo de la aplicación. La información de los datos curiosos fue obtenida de sitios web.
 
 ## Integrantes
 ### _LUIS FELIPE COTO ARIAS :man_technologist: CA180315 DSM 03T_
