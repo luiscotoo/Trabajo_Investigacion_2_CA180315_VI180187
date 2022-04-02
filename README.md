@@ -11,3 +11,5 @@ Trabajo de investigación sobre patrones de diseño para aplicaciones móviles c
 ### _LUIS FELIPE COTO ARIAS :man_technologist: CA180315 DSM 03T_
 ### _ANTHONY ALEXANDER VÁSQUEZ IRAHETA :man_technologist: VI180187 DSM 03T_
 
+##Enlace de video explicativo
+https://drive.google.com/file/d/10XVtfdQmWVTbPwMWyDNdvgSviyfHzWTA/view
